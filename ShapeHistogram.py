@@ -1,4 +1,5 @@
 import glob
+import math
 
 import cv2
 from pylab import *
@@ -163,5 +164,6 @@ def ft(img):
                 calc[14] = calc[14] + 1
             if i >= 3 * wnew and i <= 4 * wnew and j >= 3 * hnew and j <= 4 * hnew and DT[i][j] == 1:
                 calc[15] = calc[15] + 1
+    print('end')
     return calc
 

@@ -1,5 +1,3 @@
-
-
 from VGGNET import VGGNet
 
 import numpy as np
